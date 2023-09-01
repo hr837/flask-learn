@@ -13,5 +13,9 @@ def query_all():
 def add_user():
     data = request.get_json()
     print(data)
-    
-    return "OK"
+    user = UserModel()
+    user.email = data['email']
+    user.name = data['name']
+    db.session.add(user)
+    db.session.commit()
+    return 'OK'
