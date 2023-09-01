@@ -1,0 +1,10 @@
+[project]
+name = "flaskr"
+dependencies = [
+    "flask",
+    "Flask-SQLAlchemy"
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
