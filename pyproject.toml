@@ -2,7 +2,8 @@
 name = "flaskr"
 dependencies = [
     "flask",
-    "Flask-SQLAlchemy"
+    "Flask-SQLAlchemy",
+    "flask-serialize"
 ]
 
 [build-system]

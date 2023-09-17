@@ -1,6 +1,12 @@
 from flask import Blueprint
 
+
 bp_auth = Blueprint("auth",__name__,url_prefix="/auth")
+'''授权蓝图
+
+   basePath: /auth
+'''
+
 
 @bp_auth.get("/code")
 def get_verifycode():

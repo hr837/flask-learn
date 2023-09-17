@@ -1,6 +1,6 @@
 import os
 from flask import Flask;
-from .blueprints import app_blueprints
+from .modules import app_blueprints
 from .config import DevConfig
 from .exts import *
 
